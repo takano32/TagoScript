@@ -1,0 +1,14 @@
+<*# [
+<!-- 俺の名前のヒント -->
+<!include libr="stdio.h,stdlib.h">
+<int main="void">
+	<char targ="name --> lever="0"" prop="たごむらしょう" />
+	<int targ="a" /><equ /><name prop="1" />
+	<name prop="1" /><equ /><name prop="2" />
+	<name prop="2" /><equ /><name prop="3" />
+	<name prop="3" /><equ /><tmn targ="a" />
+	<printf prop="%s" targ="name --> lever="0"" writeline="<++ targ ++>" />
+	<getchar lever="null" />
+	<return lever="0">
+</int>
+] #*>

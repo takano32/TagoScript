@@ -1,0 +1,11 @@
+<*TagoScript version:1.0 [
+<*# [
+<!-- 文字表示（ターミナル上） -->
+<!include libr="stdio.h">
+<int main="void">
+	<!-- COMANDLINE PRINT -->
+	<printf prop="%s" writeline="Hello,world!!!!" />
+	<return lever="0" />
+</int>
+] #*>
+] *>

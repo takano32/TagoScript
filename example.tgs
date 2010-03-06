@@ -4,8 +4,8 @@
 <!-- コマンドプロンプト　文字表示-->
 <!include libr="stdio.h">
 <int main="void">
-	<printf writeline="Hello,world!!!!">
-        <return lever="0">
+	<printf writeline="Hello,world!!!!" />
+        <return lever="0" />
 </int>
 ] #*>
 ] *>
