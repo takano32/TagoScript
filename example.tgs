@@ -1,0 +1,12 @@
+<!-- もしも、埋め込むべきファイルが、XHTMLじゃなく、HTMLだった場合 -->
+<*TagoScript version:1.0 [
+<*# [
+<!-- コマンドプロンプト　文字表示-->
+<!include libr="stdio.h">
+<int main="void">
+	<printf writeline="Hello,world!!!!">
+        <return lever="0">
+</int>
+] #*>
+] *>
+
