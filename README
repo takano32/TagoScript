@@ -1,5 +1,7 @@
 = TagoScript
-TagoScriptのタグ・属性について。
+http://d.hatena.ne.jp/shoeasysekt/20091217
+
+= TagoScriptのタグ・属性について。
 
 ・<int>
 int関数と同じ。これにmainを入れたら、プログラムのボディになる。
