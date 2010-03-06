@@ -2,7 +2,8 @@
 <*TagoScript version:1.0 [
 <*# id:01 [
 <!-- 演算 -->
-<!include libr="stdio.h">
+<TagoScript>
+<!include libr="stdio.h"/>
 <int main="void">
 	<if prop="1 + 9">
 		<int targ="a" prop="1" />
@@ -14,6 +15,7 @@
 	</if>
 	<return lever="0" />
 </int>
+</TagoScript>
 ] #*>
 ] *>
 
