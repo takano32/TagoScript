@@ -3,7 +3,7 @@
 <*# id:01 [
 <!-- 演算 -->
 <TagoScript>
-<!include libr="stdio.h"/>
+<include libr="stdio.h"/>
 <int main="void">
 	<if prop="1 + 9">
 		<int targ="a" prop="1" />
