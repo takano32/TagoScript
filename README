@@ -1,31 +1,32 @@
-= TagoScript
-http://d.hatena.ne.jp/shoeasysekt/20091217
+# TagoScript
 
-= TagoScriptのタグ・属性について。
+<http://d.hatena.ne.jp/shoeasysekt/20091217>
 
-・<int>
+## TagoScriptのタグ* 属性について。
+
+* `<int>`
 int関数と同じ。これにmainを入れたら、プログラムのボディになる。
-・<printf>
+* `<printf>`
 printf関数と同じ。ただし、XHTMLの場合、最後尾に/を入れなければならない。
-・<char>
-char関数と同じ。XHTMLの場合は・・
-・<name>
+* `<char>`
+char関数と同じ。XHTMLの場合は* * 
+* `<name>`
 name関数と同じ。
-・<equ>
+* `<equ>`
 同等の「Equivalent」と言う意味。= を表す時に使う。
-・<tmn>
+* `<tmn>`
 終点の「Terminus」と言う意味。
 
 まぁ、後のは、想像出来るでしょう。
 
-・targ
+* targ
 Target属性。この中に、動作のターゲットとなる文字を入れる。
-・prop
+* prop
 Property属性。この中に、Active内容情報を打ち込む。要。
-・writeline
+* writeline
 WriteLine属性。コマンドライン上に何を表示するか、設定する。
-・lever
+* lever
 Lever属性。プロパティのレベル値を設定する。
-・libr
+* libr
 Library属性。ライブラリ内のヘッダーファイルを指定する。
 

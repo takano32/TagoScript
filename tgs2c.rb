@@ -1,15 +1,15 @@
 #!/usr/bin/env ruby
-require 'rexml/document'
+require 'rexml/document' # rexml is awful. How about using nokogiri?
 
-doc = REXML::Document.new(File.read('demo1.tgs'))
-
-puts doc
 def convert(elem)
-	p elem
-	elem.each_element do |elem|
-		convert(elem)
-	end
+  p elem
+  elem.each_element do |elem|
+    convert(elem)
+  end
 end
 
-convert(doc.root)
-
+if $0 == __FILE__
+  doc = REXML::Document.new(File.read('demo1.tgs'))
+  puts doc
+  convert(doc.root)
+end
