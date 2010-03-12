@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require 'rexml/document' # rexml is awful. How about using nokogiri?
+require 'rexml/document'
 
 def convert(elem)
   p elem
