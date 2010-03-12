@@ -10,6 +10,7 @@ end
 
 if $0 == __FILE__
   doc = REXML::Document.new(File.read('demo1.tgs'))
-  puts doc
   convert(doc.root)
 end
+
+
