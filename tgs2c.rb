@@ -1,16 +1,28 @@
 #!/usr/bin/env ruby
 require 'rexml/document'
 
-def convert(elem)
-  p elem
-  elem.each_element do |elem|
-    convert(elem)
-  end
+class Translator
+	def initialize(script)
+		@script = script
+	end
+	
+	def self.parse(s)
+		doc = REXML::Document.new(s)
+		ret = Translator.new(doc.root)
+	end
+	
+	def dump(elem = @script)
+		p elem
+		elem.each_element do |elem|
+			dump(elem)
+		end
+	end
 end
 
+
 if $0 == __FILE__
-  doc = REXML::Document.new(File.read('demo1.tgs'))
-  convert(doc.root)
+	xltor = Translator.parse(File.read('demo1.tgs'))
+	xltor.dump
 end
 
 
